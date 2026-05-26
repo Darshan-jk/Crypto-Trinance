@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Log in | Trinance</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="styles/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+        <img src="images/logo.png" alt=""><h1>Trinance</h1>
+        </div>
+    <h1>Log in</h1>
+    <form>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" name="password" required>
+        <button class="login-btn" type="submit" onclick="location.href='dashboard.html'">Login</button><br><br>
+        <div class="login-options">
+            <p>or</p>
+        </div>br
+        
+
+         <div class="social-login">
+                <button type="button" class="social-btn google">
+                    <i class="fab fa-google"></i>
+                    Continue with Google
+                </button>
+
+                <button type="button" class="social-btn apple">
+                    <i class="fab fa-apple"></i>
+                    Continue with Apple
+                </button>
+
+                <button type="button" class="social-btn telegram">
+                    <i class="fab fa-telegram"></i>
+                    Continue with Telegram
+                </button>
+        </div>
+    </form>
+    </div>
+
+    <div class="register">
+            <a class="register-link" href="signup.html">Create a Trinance Account</a>
+            <br><br>
+            <a class="register-link" href="forgot-password.html">Forgot Password?</a>
+        </div>
+
+    <footer>
+        <p>&copy; 2026 Trinance. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

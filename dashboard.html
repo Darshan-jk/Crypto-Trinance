@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Crypto Dashboard</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar">
+
+        <div class="logo">
+            <div class="logo-box">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <h2>Trinance</h2>
+        </div>
+
+        <div class="nav-title">Navigation</div>
+
+        <ul class="menu">
+
+            <li>
+                <a href="dashboard.html">
+                    <div class="menu-left">
+                        <i class="fa-solid fa-table-columns"></i>
+                        <span>Dashboard</span>
+                    </div>
+                    <!-- <i class="fa-solid fa-angle-right"></i> -->
+                </a>
+            </li>
+
+            <li>
+                <a href="aboutUs.html">
+                    <div class="menu-left">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <span>About Us</span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    <div class="menu-left">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Contact Us</span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="menu-left">
+                        <i class="fa-solid fa-wallet"></i>
+                        <span>My Wallet</span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href=" ">
+                    <div class="menu-left">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span>Transaction</span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="menu-left">
+                        <i class="fa-brands fa-bitcoin"></i>
+                        <span>Crypto</span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="menu-left">
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        <span>Exchange</span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="menu-left">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Settings</span>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- MAIN -->
+
+    <div class="main">
+
+        <!-- TOPBAR -->
+
+        <div class="topbar">
+
+            <div class="top-left">
+                <h2>Dashboard</h2>
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Type to search ...">
+                </div>
+            </div>
+
+            <div class="top-right">
+                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-regular fa-bell"></i>
+
+                <div class="profile">
+                    <img src="images\profile.png" alt="Profile Image">
+                    <!-- Add your profile image source here -->
+                    <div>
+                        <h4>David</h4>
+                        <span>Admin</span>
+                    </div>
+                </div>
+                <!-- div for logout -->
+                <a href="login.html">
+                    <div class="logout">
+                        <i class="fa-solid fa-right-from-bracket">Logout</i>
+                    </div>
+                </a>
+                <i class="fa-solid fa-gear"></i>
+            </div>
+
+        </div>
+
+        <!-- DASHBOARD GRID -->
+
+        <div class="dashboard-grid">
+
+            <!-- CARD -->
+
+            <div class="card mini-card dark-card">
+                <div class="coin-icon">
+                    <i class="fa-brands fa-bitcoin"></i>
+                </div>
+
+                <div>
+                    <h3>$34,57</h3>
+                    <p>+4% (30 days)</p>
+                </div>
+
+                <div class="graph-line"></div>
+            </div>
+
+            <!-- CARD -->
+
+            <div class="card mini-card">
+                <div class="coin-icon dark-card">
+                    <i class="fa-solid fa-wave-square"></i>
+                </div>
+
+                <div>
+                    <h3>$14,47</h3>
+                    <p>+4% (30 days)</p>
+                </div>
+
+                <div class="graph-line"></div>
+            </div>
+
+            <!-- CHART -->
+
+            <div class="card chart-card dark-card">
+
+                <div class="chart-title">
+                    <h3>Crypto Statistics</h3>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <div class="chart-lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="card mini-card">
+                <div class="coin-icon green-card">
+                    <i class="fa-solid fa-minus"></i>
+                </div>
+
+                <div>
+                    <h3>$54,57</h3>
+                    <p>+4% (30 days)</p>
+                </div>
+
+                <div class="graph-line"></div>
+            </div>
+
+            <!-- CARD -->
+
+            <div class="card mini-card green-card">
+                <div class="coin-icon dark-card">
+                    <i class="fa-solid fa-droplet"></i>
+                </div>
+
+                <div>
+                    <h3>$34,57</h3>
+                    <p>+4% (30 days)</p>
+                </div>
+
+                <div class="graph-line"></div>
+            </div>
+
+            <!-- MARKET -->
+
+            <div class="card market">
+
+                <div class="market-top">
+                    <h3>Market Overview</h3>
+
+                    <div>
+                        <strong>Month</strong>
+                    </div>
+                </div>
+
+                <div class="market-chart">
+
+                    <div class="bars">
+
+                        <div class="bar purple" style="height:140px"></div>
+                        <div class="bar" style="height:110px"></div>
+                        <div class="bar purple" style="height:150px"></div>
+                        <div class="bar" style="height:130px"></div>
+                        <div class="bar purple" style="height:90px"></div>
+                        <div class="bar" style="height:70px"></div>
+                        <div class="bar purple" style="height:100px"></div>
+                        <div class="bar" style="height:120px"></div>
+                        <div class="bar purple" style="height:105px"></div>
+                        <div class="bar" style="height:90px"></div>
+                        <div class="bar purple" style="height:80px"></div>
+                        <div class="bar" style="height:120px"></div>
+                        <div class="bar purple" style="height:100px"></div>
+                        <div class="bar" style="height:75px"></div>
+                        <div class="bar purple" style="height:60px"></div>
+                        <div class="bar" style="height:95px"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- SELL ORDER -->
+
+            <div class="card table-card">
+
+                <h3>Sell Order</h3>
+
+                <table>
+                    <tr>
+                        <th>Price</th>
+                        <th>Amount</th>
+                        <th>Total</th>
+                    </tr>
+
+                    <tr>
+                        <td>98.36</td>
+                        <td>0.25</td>
+                        <td>$147.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>98.36</td>
+                        <td>0.25</td>
+                        <td>$147.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>98.36</td>
+                        <td>0.25</td>
+                        <td>$147.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>98.36</td>
+                        <td>0.25</td>
+                        <td>$147.00</td>
+                    </tr>
+                </table>
+
+                <button class="view-btn">View All</button>
+
+            </div>
+
+            <!-- BUY ORDER -->
+
+            <div class="card table-card green-card">
+
+                <h3>Buy Order</h3>
+
+                <table>
+                    <tr>
+                        <th>Price</th>
+                        <th>Amount</th>
+                        <th>Total</th>
+                    </tr>
+
+                    <tr>
+                        <td>98.36</td>
+                        <td>0.25</td>
+                        <td>$147.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>98.36</td>
+                        <td>0.25</td>
+                        <td>$147.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>98.36</td>
+                        <td>0.25</td>
+                        <td>$147.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>98.36</td>
+                        <td>0.25</td>
+                        <td>$147.00</td>
+                    </tr>
+                </table>
+
+                <button class="view-btn">View All</button>
+
+            </div>
+
+        </div>
+        <!-- FOOTER -->
+
+        <div class="footer">
+
+            <p>
+                © 2026 Trinance. All Rights Reserved.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
