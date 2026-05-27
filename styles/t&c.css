@@ -1,0 +1,108 @@
+body{
+    background-color: #000000;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: #000000;
+    border: 0.1px solid #6e6b6b;
+    border-radius: 7px;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 0 0 9px black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.logo img{
+    width: 40px;
+    height: auto;
+}
+
+.logo h1{
+    color: #fcff44;
+    font-size: 32px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h2{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.header p{
+    color: #6e6b6b;
+    font-size: 15px;
+}
+
+.section{
+    margin-bottom: 30px;
+}
+
+.section h3{
+    color: #fcff44;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.section p{
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.agree-btn,
+.decline-btn{
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.agree-btn{
+    background-color: #fcff44;
+    color: black;
+}
+
+.agree-btn:hover{
+    opacity: 0.7;
+}
+
+.decline-btn{
+    background-color: #ff3b3b;
+    color: white;
+}
+
+.decline-btn:hover{
+    opacity: 0.7;
+}
+
+footer{
+    text-align: center;
+    margin-top: 35px;
+    color: #6e6b6b;
+    font-size: 14px;
+}
